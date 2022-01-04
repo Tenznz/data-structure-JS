@@ -6,8 +6,8 @@ for (let i = 0; i <= 9; i++) {
     console.log(numbers[i]);
 }
 var temp = 0;
-for (j = 0; j < numbers.length-1; j++) {
-    for (i = 0; i < numbers.length-1; i++) {
+for (j = 0; j < numbers.length - 1; j++) {
+    for (i = 0; i < numbers.length - 1; i++) {
         if (numbers[i] > numbers[j]) {
             temp = numbers[j];
             numbers[j] = numbers[i];
